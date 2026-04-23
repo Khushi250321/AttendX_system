@@ -9,10 +9,11 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'https://attend-x-kf65.vercel.app'
-  ],
+ origin: [
+  'http://localhost:5173',
+  'https://attend-x-kf65.vercel.app',
+  'https://attend-x-system.vercel.app'
+],
   credentials: true
 }));
 
